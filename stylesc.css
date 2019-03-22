@@ -1,0 +1,141 @@
+#head{
+
+	color: green;/*Color de la letra*/
+	border: 1px solid black;/*Poner un borde*/
+	border-radius: 5px; /*Borde redondo*/
+	text-align: center;
+	width: 50%; /*Largo del contenedor*/
+	font-family: 'Segoe UI', Tahoma, Verdana, sans-serif,arial;	
+}
+
+.content{
+	padding: 1.5%;
+	text-align: justify;
+}
+#hola{
+    color: #C63F10;
+	border-bottom: 1px  solid black;
+	width:50%;
+	font-family: 'Segoe UI', Tahoma, Verdana, sans-serif,arial;	
+}
+#letra{
+	text-align: justify;
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif,arial;	
+    margin: 0;
+    padding: 0;
+}
+
+p{
+	margin: 2%;
+	padding: 2%;
+	text-align: justify;
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif,arial;	
+}
+div{
+	margin: 8%;
+	border: 1px solid black;
+	font-family: 'Segoe UI', Tahoma, Verdana, sans-serif,arial;	
+}
+
+#plandiv{
+	padding: : 1%;
+	border: 1px solid black;
+	margin-bottom: 50px;
+	font-family: 'Segoe UI', Tahoma, Verdana, sans-serif,arial;	
+}
+
+#Si{
+	color: #06448E;
+	font-family: 'Segoe UI', Tahoma, Verdana, sans-serif,arial;	
+	width:27%;
+	text-align: justify;
+
+
+}
+
+#j{
+	height: 1000px;
+
+}
+text{
+	color: green;
+	text-align: justify;
+	font-family: 'Segoe UI', Tahoma, Verdana, sans-serif,arial;	
+}
+
+footer{
+	font-family: 'Segoe UI', Tahoma, Verdana, sans-serif,arial;	
+	text-align: center;
+	width: 98%;
+	padding: 1%;
+	background-color: black;
+	color: white;
+}
+ 
+#cosecha{
+height: 700px;
+width: 1200px;
+
+}
+
+#hd{
+height: 400px;
+width: 600px;
+}
+
+#header {
+	margin:auto;
+	width: 100%;
+	font-family:Arial, Helvetica, sans-serif;
+}
+			
+ul, ol {
+	list-style:none;
+}
+			
+.nav {
+	width: 100%; /*Le establecemos un ancho*/
+	margin:0 auto; /*Centramos automaticamente*/
+}
+ 
+.nav > li {
+	float:left;
+}
+		
+.nav li a {
+	background-color: #000;
+	color: #fff;
+	text-decoration:none;
+	padding: 10px 12px;
+	display: block;
+	text-align: center;
+	font-family: 'Segoe UI', arial;
+}
+			
+.nav li a:hover {
+	background-color:#434343;
+}
+.size{
+	width: 23.5%;	
+}	
+.s1{
+	width: 165%;
+}		
+.nav li ul {
+	display:none;
+	position:absolute;
+	min-width:140px;
+}
+			
+.nav li:hover > ul {
+	display:block;
+}
+			
+.nav li ul li {
+	position: relative;
+}
+			
+.nav li ul li ul {
+	right:-140px;
+	top:0px;
+}
